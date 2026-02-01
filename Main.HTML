@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PinTalk - Learning CSS</title>
+    <style>
+        /* This is CSS - it controls how things look! */
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        
+        /* Header section with PinTalk colors */
+        .header {
+            background: linear-gradient(to right, #00375a, #29658c);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .logo {
+            width: 60px;
+            height: 60px;
+            background-color: #a5cce5;
+            border-radius: 50%;
+            display: inline-block;
+            line-height: 60px;
+            font-size: 24px;
+            font-weight: bold;
+            color: #00375a;
+        }
+        
+        /* Featured winner box */
+        .winner-box {
+            background: linear-gradient(135deg, #29658c, #00375a);
+            color: white;
+            padding: 40px;
+            margin: 30px auto;
+            max-width: 800px;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .winner-box h2 {
+            margin-top: 0;
+            font-size: 28px;
+        }
+        
+        /* Info box for "How It Works" */
+        .info-box {
+            background-color: #a5cce5;
+            padding: 30px;
+            margin: 30px auto;
+            max-width: 800px;
+            border-radius: 15px;
+        }
+        
+        .info-box h2 {
+            color: #00375a;
+            margin-top: 0;
+        }
+        
+        .info-box p {
+            color: #29658c;
+            font-size: 16px;
+            margin: 10px 0;
+        }
+        
+        /* Post cards */
+        .posts-container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+        
+        .post-card {
+            background-color: white;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 10px;
+            border-left: 4px solid #29658c;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .post-card:hover {
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+            transform: translateY(-2px);
+            transition: all 0.3s;
+        }
+        
+        .post-type {
+            background-color: #00375a;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 12px;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- This is the header with the logo -->
+    <div class="header">
+        <div class="logo">PT</div>
+        <h1>PinTalk</h1>
+        <p>Where creators get their moment to shine</p>
+    </div>
+    
+    <!-- Featured winner section -->
+    <div class="winner-box">
+        <h2>🏆 This Week's Featured Creator</h2>
+        <h3>@sarahcreates</h3>
+        <p>Name: Mike Schmit</p>
+        <p>Subscribers: 12.4K</p>
+        <p>Featured: Jan 27 - Feb 2, 2026</p>
+    </div>
+    
+    <!-- How it works section -->
+    <div class="info-box">
+        <h2>How It Works</h2>
+        <p>✅ Post 5 videos or photos to enter the weekly drawing</p>
+        <p>🎲 One winner is randomly selected every Sunday at midnight</p>
+        <p>⭐ Winners get featured on the homepage for one week</p>
+        <p>🏅 All winners join our Hall of Fame</p>
+    </div>
+    
+    <!-- Trending posts -->
+    <div class="posts-container">
+        <h2 style="color: #00375a;">Trending Posts</h2>
+        
+        <div class="post-card">
+            <span class="post-type">📹 Video</span>
+            <h3 style="color: #00375a; margin: 10px 0;">Day in my life as a developer</h3>
+            <p style="color: #29658c;">@alexvlogs</p>
+            <p style="color: #666; font-size: 14px;">12.3K views</p>
+        </div>
+        
+        <div class="post-card">
+            <span class="post-type">📷 Photo</span>
+            <h3 style="color: #00375a; margin: 10px 0;">Mountain peaks at dawn</h3>
+            <p style="color: #29658c;">@photography_jane</p>
+            <p style="color: #666; font-size: 14px;">8.1K views</p>
+        </div>
+        
+        <div class="post-card">
+            <span class="post-type">📹 Video</span>
+            <h3 style="color: #00375a; margin: 10px 0;">Perfect pasta carbonara</h3>
+            <p style="color: #29658c;">@cookingtips</p>
+            <p style="color: #666; font-size: 14px;">23.4K views</p>
+        </div>
+
+        </div class="post card">
+            <span class="post-type">📸 Photo</span>
+            <h3 style="color: #00375a; margin: 10px 0;">I found this on my computer💀</h3>
+            <p style="color: #29658c;>@Belly_scracher</p>
+            <p style="color: #666; font-size:14px;">93.2k views</p>
+        </div>
+        
+    </div>
+</body>
+</html>
